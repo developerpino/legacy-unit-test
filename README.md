@@ -18,7 +18,7 @@ D:\workspace\legacy-unit-test>jest
 Error: Could not find a config file based on provided values:
 path: "D:\workspace\legacy-unit-test"
 ```
-Complete!
+Completed!
 
 ## Mechanism
 - js 의 파일에서 하는 일 = 특정 DOM element 를 동적으로 변화 시키는 일
@@ -48,8 +48,8 @@ module.exports = {
 - Goals 를 하나씩 실행하여 testing
 
 ## Check points
-- jquery 가 먼저 load 되있어야 정상 실행이 가능함 => jquery 를 먼저 require (https://jestjs.io/docs/configuration#setupfilesafterenv-array)
 - js logic의 실행 뿐 아니라 DOM Element 가 변경되는 부분들을 어떻게 체크 할 것인가? => testEnvironment option 을 'node' 에서 'jsdom' 으로 설정 (https://jestjs.io/docs/configuration#testenvironment-string)
+- jquery 가 먼저 load 되있어야 정상 실행이 가능함 => jquery 를 먼저 require (https://jestjs.io/docs/configuration#setupfilesafterenv-array)
 
 ## Mock pageDATA
 ```
