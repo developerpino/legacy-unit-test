@@ -1,4 +1,6 @@
- let layoutJS = {
+'use strict'
+
+const layoutJS = {
      init : function () {
          this.bindEvents();
      },
