@@ -4,6 +4,7 @@ jquery legacy project 에 unit test framework 중 jest 적용
 https://jestjs.io/
 
 ![Jest survay](./survay_2021.PNG)
+
 Github Starts 기준으로 2021년도 Best JS Test Framework
 
 ## Install
