@@ -27,14 +27,6 @@ Completed!
 ## Target
 - layout.js
 
-## jest.config.js
-```
-module.exports = {
-    testEnvironment : 'jsdom',
-    setupFilesAfterEnv: ['./jest.setup.js'],
-};
-```
-
 ## Goals
 - init() 실행
 - gridGNB() 정상 동작 확인
@@ -50,6 +42,14 @@ module.exports = {
 ## Check points
 - js logic의 실행 뿐 아니라 DOM Element 가 변경되는 부분들을 어떻게 체크 할 것인가? => testEnvironment option 을 'node' 에서 'jsdom' 으로 설정 (https://jestjs.io/docs/configuration#testenvironment-string)
 - jquery 가 먼저 load 되있어야 정상 실행이 가능함 => jquery 를 먼저 require (https://jestjs.io/docs/configuration#setupfilesafterenv-array)
+
+## jest.config.js
+```
+module.exports = {
+    testEnvironment : 'jsdom',
+    setupFilesAfterEnv: ['./jest.setup.js'],
+};
+```
 
 ## Mock pageDATA
 ```

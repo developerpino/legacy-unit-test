@@ -1,14 +1,14 @@
 module.exports = {
-    scriptURL: 'staff_jest.com',
+    scriptURL: 'minsung.com',
     gnbJSON: JSON.stringify([
         {
             is_use: 1,
-            src: 'staff_jest.com',
+            src: 'minsung.com',
             menu_id: 'gnb_parent',
             child: [
                 {
                     is_use: 1,
-                    src: 'staff_jest.com',
+                    src: 'minsung.com',
                     menu_id: 'gnb_child'
                 }
             ],
@@ -22,7 +22,7 @@ module.exports = {
             child: [
                 {
                     is_use: 1,
-                    src: 'staff_jest.com',
+                    src: 'minsung.com',
                     menu_id: 'gnb_child'
                 }
             ],
